@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const date = new Date();
+export const prerender = true;
+---
+
+<Layout title="About me">
+    <main>
+        <h1>Hi, I am aditya!</h1>
+        {date}
+    </main>
+</Layout>
